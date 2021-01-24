@@ -1,6 +1,8 @@
 WORKSPACE=$(cd $(dirname $0)/; pwd)
 cd ${WORKSPACE}
 
+mkdir -p log
+
 app=fc
 pidfile=${app}.pid
 
